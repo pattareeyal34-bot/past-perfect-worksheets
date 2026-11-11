@@ -53,6 +53,9 @@ small{display:block;color:#736783;line-height:1.6;margin:15px 0}
 <select id="worksheet">
 <option value="1">Worksheet 1 - Once Upon a Time</option>
 <option value="2">Worksheet 2 - The Ant and the Grasshopper</option>
+
+<option value="3">Worksheet 3 - Past Perfect and Past Simple</option>
+<option value="4">Worksheet 4 - Past Progressive and Past Perfect</option>
 </select>
 
 <label for="name">Full Name</label>
@@ -116,7 +119,35 @@ const worksheets={
       [290,900],[730,1120],
       [450,1300]
     ]
+  }, 
+  },
+  "3":{
+    image:"worksheet3.png",
+    title:"Worksheet_3_Past_Perfect_and_Past_Simple",
+    referenceWidth:1024,
+    name:[252,1440,285,22],
+    cls:[611,1440,92,20],
+    no:[783,1440,58,20],
+    classPrefix:"M.5/",
+    spots:[
+      [280,360],[530,560],
+      [280,790],[510,1060],[490,1260]
+    ]
+  },
+  "4":{
+    image:"worksheet4.png",
+    title:"Worksheet_4_Past_Progressive_and_Past_Perfect",
+    referenceWidth:1536,
+    name:[340,972,485,25],
+    cls:[955,972,140,24],
+    no:[1210,972,110,24],
+    classPrefix:"M.5/",
+    spots:[
+      [360,350],[1040,350],
+      [420,560],[1080,620],[650,800]
+    ]
   }
+
 };
 
 function fields(){
